@@ -1,23 +1,24 @@
 # package_rodrigo
 
-Description. 
-The package package_name is used to:
-	- 
-	-
+
+from imagem_processador_rodrigo import processador
+imagem = processador.carregar_imagem("caminho/para/imagem.jpg")
+imagem_cinza = processador.converter_para_escala_cinza(imagem)
+processador.salvar_imagem(imagem_cinza, "imagem_cinza.jpg")
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install imagem_processador_rodrigo
 
 ```bash
-pip install package_name
+pip install imagem_processador_rodrigo
 ```
 
 ## Usage
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
+from imagem_processador_rodrigo import processador.py
+processador.py.my_function()
 ```
 
 ## Author
